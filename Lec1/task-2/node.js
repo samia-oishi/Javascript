@@ -1,0 +1,1 @@
+console.log("Hello,this is my task 2. I am running node js.")
