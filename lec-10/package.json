@@ -1,0 +1,33 @@
+{
+  "name": "lec-10",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@eslint/js": "^9.12.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.12.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "loader": "^2.1.1",
+    "prettier": "^3.3.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
